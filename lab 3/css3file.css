@@ -1,0 +1,40 @@
+
+body {
+
+   /*background-image: url("back.jpg");*/
+   background-attachment: fixed;
+   background-position:center;
+}
+#cloud-scroll {
+
+background: url(back.jpg) no-repeat center;
+height: 100%;
+-webkit-animation: backgroundScroll 2s linear infinite;
+animation: backgroundScroll 2s linear infinite;
+
+}
+ #jahaz{
+	
+	height: 25%;
+	z-index:50;
+	
+ }
+img:hover{
+ margin-top:20px;
+ /*transition: margin 1s;*/
+ transform:translateY(90px);
+ }
+
+
+
+ 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
